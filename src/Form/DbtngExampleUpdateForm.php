@@ -151,8 +151,8 @@ class DbtngExampleUpdateForm extends FormBase {
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
     // Confirm that age is numeric.
-    if (!intval($form_state->getValue('age'))) {
-      $form_state->setErrorByName('age', $this->t('Age needs to be a number'));
+    if (!intval($form_state->getValue('age')) || ($form_state->getValue('age') < 1)) {
+      $form_state->setErrorByName('age', $this->t('Age needs to be a positive number'));
     }
   }
 
