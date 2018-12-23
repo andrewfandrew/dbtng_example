@@ -21,6 +21,10 @@
  - Form validation is done at the field level and also in the form submit handler
  - Working inside the form layer you have greater control over messages displayed to the user
  
+ #### Extending form validation
+ - In drupal 8 you can install the symfony derived 'validator' contrib module
+ - This enables a library of real-world datatype validators.
+ 
  
 
  
