@@ -23,7 +23,7 @@
  
  #### Extending form validation
  - In drupal 8 you can install the symfony derived 'validator' contrib module
- - This enables a library of real-world datatype validators. See [Symfony validator docs](https://symfony.com/doc/current/validation.html)
+ - This enables a library of real-world datatype validators [symfony validator](https://symfony.com/doc/current/validation.html).
  
  
 
