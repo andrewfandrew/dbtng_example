@@ -11,7 +11,7 @@
  has the unexpected effect of allowing positive integers greater than 127 for age forcing
  you implement that validation in the form instead. The reason for this is that when using 
  the MySQL 'TINYINT' datatype if it is made 'unsigned' then this frees up bits and increases the
- range of values from about 0.5 x 256 to nearly 1 x 256.
+ range of values from roughly 0.5 x 256 to 1 x 256.
 
  
 
