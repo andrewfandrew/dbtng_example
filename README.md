@@ -14,6 +14,14 @@
  
  The reason for this is that when using the MySQL 'TINYINT' datatype if it is made 'unsigned'
  then this frees up bits and increases the range of values from roughly 0.5 x 256 to 1 x 256.
+ 
+ #### Tips for form validation
+ - Try to restrict values in the schema
+ - You can repeat the restriction in by form validation
+ - This can be achieved in the form field and the form submit handler
+ - At the form layer you have control over messages displayed to the user
+ 
+ 
 
  
 
