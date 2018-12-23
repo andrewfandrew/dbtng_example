@@ -17,9 +17,9 @@
  
  #### Tips for form validation
  - Try to restrict values in the schema
- - You can repeat the restriction in by form validation
- - This can be achieved in the form field and the form submit handler
- - At the form layer you have control over messages displayed to the user
+ - You can adopt a belt and braces approach by applying the same in the form
+ - Form validation is done at the field level and also in the form submit handler
+ - Working inside the form layer you have greater control over messages displayed to the user
  
  
 
